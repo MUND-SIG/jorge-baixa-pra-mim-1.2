@@ -1,0 +1,26 @@
+JORGE BAIXA PRA MIM - VERSAO ANDROID NATIVA (com FFmpeg)
+=========================================================
+
+Esta versao embute o yt-dlp e o FFmpeg dentro do app (como o Termux faz),
+entao junta video e audio e oferece as qualidades altas.
+
+COMO GERAR O APK (sem instalar nada no PC)
+1) Crie um NOVO repositorio privado no GitHub (ex: jorge-baixa-v2).
+   Nao misture com o repositorio da versao antiga (Kivy).
+2) Extraia este zip e ARRASTE TODO O CONTEUDO da pasta para a pagina
+   "uploading an existing file" do repositorio novo. A pasta "app" e a pasta
+   ".github" precisam ir junto.
+   Confira em Code que na raiz aparecem: app, .github, build.gradle.kts,
+   gradle.properties, settings.gradle.kts.
+3) Clique em "Commit changes". A geracao comeca sozinha (aba Actions).
+   Demora de 5 a 15 minutos.
+4) Quando ficar verde, abra a execucao, baixe o Artifact
+   "JORGE-BAIXA-PRA-MIM-apk", extraia o zip no celular e instale o .apk.
+
+LIMITES / AVISOS
+- Android 10 ou mais novo, celular de 64 bits.
+- O APK fica grande (dezenas de MB), pois leva Python e FFmpeg dentro.
+- A primeira abertura demora, porque o app prepara os arquivos internos.
+- Os arquivos ficam em Downloads/JorgeBaixaPraMim.
+- O yt-dlp que vem no app pode ficar velho. Se o YouTube parar de funcionar,
+  gere o APK de novo ou me peca o botao de atualizar.
